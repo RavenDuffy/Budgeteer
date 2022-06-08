@@ -1,0 +1,17 @@
+{
+  "name": "budgeteer",
+  "packageManager": "yarn@3.2.0",
+  "devDependencies": {
+    "turbo": "^1.2.16"
+  },
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "build": "turbo run build",
+    "test": "turbo run test",
+    "lint": "turbo run lint",
+    "dev": "turbo run dev"
+  }
+}
